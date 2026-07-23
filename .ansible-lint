@@ -1,0 +1,13 @@
+---
+profile: production
+
+exclude_paths:
+  - .git/
+  - .venv/
+  - collections/
+  - tests/molecule/
+
+skip_list: []
+
+warn_list:
+  - experimental

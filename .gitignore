@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Ansible
+*.retry
+ansible.log
+.fact_cache/
+collections/ansible_collections/
+
+# Molecule
+.molecule/
+molecule/*/.molecule/
+
+# Secrets
+*.vault-password
+.vault_pass
+vault-password.txt
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Environment variables
+.env
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Test output
+test-results/
+coverage/
